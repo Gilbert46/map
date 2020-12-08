@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+    crossorigin="anonymous">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <!-- Estils propis -->
+    <link href="css/map.css" rel="stylesheet" type="text/css" />
+    <!-- Icon link-->
+    <link href="img/map.ico" rel="icon">
+    <!-- javascript propis -->
+    <script src="js/map.js" type="text/javascript"></script>
+    <title>Mapes interactius</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mapes territorials</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#euro" id="dis"><img src="img\inici.png" height="30" alt=""/></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#img" id="dis"><img src="img\visor.png" height="30" alt=""/></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="http:\\www.google.com" id="dis"><img src="img\sortir.png" height="30" alt=""/></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> 
+    <header>
+        <h1>MAPA D'EUROPA i NORD-ÀFRICA</h1>
+        <h4>
+            Mapa de fronteres i carreteres de l'europa continental, les illes del Reine Unit, Nord d'Àfrica i Mig Orient.<br/>
+            Realitzar un click amb el botó esquerra del <i><b>mouse</b></i> per saber més informació de la localització o regió del plànol seleccionat.
+        </h4>
+    </header>
+    <section>
+        <h5>
+            <i>
+            Presione'm en una àrea per apendre més sobre aquesta localització o regió del mapa.
+            </i>
+        </h5>
+        <img id="euro" src="img/europa.jpg" usemap="#europa" alt="mapa d'Europa i nord-Africa" />
+        <map name="europa" id="europa">
+            <!-- EUROPA -->
+            <area id="Suècia" alt="Suècia" title="Suècia" href="https://ca.wikipedia.org/wiki/Suècia" coords="600,1,650,40" />
+            <area id="Catalunya" alt="Catalunya" title="Catalunya" href="https://ca.wikipedia.org/wiki/Catalunya" shape="rect" coords="410,330,470,400" />
+            <area id="Espanya" alt="Espanya" title="Espanya"
+            href="https://ca.wikipedia.org/wiki/Espanya" shape="rect" coords="300,330,410,490" />
+            <area id="Portugal" alt="Portugal" title="Portugal"
+            href="https://ca.wikipedia.org/wiki/Portugal" shape="rect" coords="260,340,300,480" />
+            <area id="França" alt="França" title="França" href="https://ca.wikipedia.org/wiki/França" shape="rect" coords="300,180,520,330" />
+            <area id="Bèlgica" alt="Bèlgica" title="Bèlgica" href="https://ca.wikipedia.org/wiki/Bèlgica"
+            shape="rect" coords="450,140,520,180" />
+            <area id="Alemanya" alt="Alemanya" title="Alemanya" href="https://ca.wikipedia.org/wiki/Alemanya"
+            shape="rect" coords="520,40,620,240" />
+            <area id="Països Baixos" alt="Països Baixos" title="Països Baixos" href="https://ca.wikipedia.org/wiki/Països Baixos" shape="rect" coords="460,90,520,140" />
+            <area id="Dinamarca" alt="Dinamarca" title="Dinamarca" href="https://ca.wikipedia.org/wiki/Dinamarca" shape="rect" coords="520,1,580,40" />
+            <area id="Suïssa" alt="Suïssa" title="Suïssa" href="https://ca.wikipedia.org/wiki/Suïssa" shape="rect" coords="520,240,600,280" />
+            <area id="Itàlia" alt="Itàlia" title="Itàlia" href="https://ca.wikipedia.org/wiki/Itàlia" shape="rect" coords="520,280,650,460" />
+            <area id="Polònia" alt="Polònia" title="Polònia"
+            href="https://ca.wikipedia.org/wiki/Polònia"
+            shape="rect" coords="620,60,770,155" />
+            <area id="República Xeca" alt="República Xeca" title="República Xeca" href="https://ca.wikipedia.org/wiki/República Xeca" shape="rect" coords="620,155,690,205" />
+            <area id="Aústria" alt="Aústria" title="Aústria" href="https://ca.wikipedia.org/wiki/Aústria"
+            shape="rect" coords="620,205,670,255" />
+            <area id="Eslovènia" alt="Eslovènia" title="Eslovènia"
+            href="https://ca.wikipedia.org/wiki/Eslovènia" shape="rect" coords="600,255,680,280" />
+            <area id="Croàcia" alt="Croàcia" title="Croàcia" href="https://ca.wikipedia.org/wiki/Croàcia" shape="rect" coords="650,280,680,330" />
+            <area id="Eslovàquia" alt="Eslovàquia" title="Eslovàquia" href="https://ca.wikipedia.org/wiki/Eslovàquia" shape="rect" coords="690,180,750,220" />
+            <area id="Lituània" alt="Lituània" title="Lituània" href="https://ca.wikipedia.org/wiki/Lituània" shape="rect" coords="710,1,810,50" />
+            <area id="Bòsnia" alt="Bòsnia" title="Bòsnia" href="https://ca.wikipedia.org/wiki/Bòsnia" shape="rect" coords="680,290,710,330" />
+            <area id="Montenegro" alt="Montenegro" title="Montenegro" href="https://ca.wikipedia.org/wiki/Montenegro" shape="rect" coords="700,330,720,360" />
+            <area id="Albània" alt="Albània" title="Albània" href="https://ca.wikipedia.org/wiki/Albània" shape="rect" coords="710,360,750,410" />
+            <area id="Grècia" alt="Grècia" title="Grècia" href="https://ca.wikipedia.org/wiki/Grècia" shape="rect" coords="730,410,820,540" />
+            <area id="Hungria" alt="Hungria" title="Hungria" href="https://ca.wikipedia.org/wiki/Hungria"
+            shape="rect" coords="670,220,750,275" />
+            <area id="Bielorúsia" alt="Bielorúsia" title="Bielorúsia" href="https://ca.wikipedia.org/wiki/Bielorúsia" shape="rect" coords="770,50,890,130" />
+            <area id="Rúsia" alt="Rúsia" title="Rúsia" href="https://ca.wikipedia.org/wiki/Rúsia" shape="rect" coords="890,1,1030,130" />
+            <area id="Ucrània" alt="Ucrània" title="Ucrània" href="https://ca.wikipedia.org/wiki/Ucrània" shape="rect" coords="770,130,1030,230" />
+            <area id="Rumania" alt="Rumania" title="Rumania" href="https://ca.wikipedia.org/wiki/Rumania" shape="rect" coords="750,230,850,310" />
+            <area id="Sèrvia" alt="Sèrvia" title="Sèrvia" href="https://ca.wikipedia.org/wiki/Sèrvia" shape="rect" coords="720,310,770,360" />
+            <area id="Bulgària" alt="Bulgària" title="Bulgària" href="https://ca.wikipedia.org/wiki/Bulgària" shape="rect" coords="770,310,850,360" />
+            <area id="Macedònia" alt="Macedònia" title="Macedònia" href="https://ca.wikipedia.org/wiki/Macedònia" shape="rect" coords="750,360,780,390" />
+            <area id="Moldàvia" alt="Moldàvia" title="Moldàvia" href="https://ca.wikipedia.org/wiki/Moldàvia" shape="rect" coords="850,230,870,250" />
+            <area id="Turquia" alt="Turquia" title="Turquia" href="https://ca.wikipedia.org/wiki/Turquia" shape="rect" coords="820,360,1035,480" />
+            <area id="Xipre" alt="Xipre"title="Xipre" href="https://ca.wikipedia.org/wiki/Xipre" shape="rect" coords="920,500,960,530" />
+            <area id="Gran Bretanya" alt="Gran Bretanya" title="Gran Bretanya" href="https://ca.wikipedia.org/wiki/Gran Bretanya" shape="rect" coords="315,1,440,170" />
+            <area id="Irlanda" alt="Irlanda" title="Irlanda" href="https://ca.wikipedia.org/wiki/Irlanda" shape="rect" coords="260,50,315,150" />
+            <!-- NORD D'ÂFRICA --> 
+            <area id="Marroc" alt="Marroc" title="Marroc" href="https://ca.wikipedia.org/wiki/Marroc" shape="rect" coords="200,490,380,660" />
+            <area id="Sàhara" alt="Sàhara" title="Sàhara" href="https://ca.wikipedia.org/wiki/Sàhara" coords="100,660,240,790" />
+            <area id="Mauritània" alt="Mauritània" title="Mauritània" href="https://ca.wikipedia.org/wiki/Mauritània" coords="240,660,340,820" />
+            <area id="Algèria" alt="Algèria" title="Algèria" href="https://ca.wikipedia.org/wiki/Algèria" coords="380,490,540,780" />
+            <area id="Tunísia" alt="Tunísia" title="Tunísia" href="https://ca.wikipedia.org/wiki/Tunísia" coords="540,450,590,610" />
+            <area id="Líbia" alt="Líbia" title="Líbia" href="https://ca.wikipedia.org/wiki/Líbia" coords="590,550,820,780" />
+            <area id="Egipte" alt="Egipte" title="Egipte" href="https://ca.wikipedia.org/wiki/Egipte" coords="820,590,980,780" />
+            <area id="Israel" alt="Israel" title="Israel" href="https://ca.wikipedia.org/wiki/Israel" coords="960,560,980,590" />
+            <area id="Liban" alt="Liban" title="Liban" href="https://ca.wikipedia.org/wiki/Liban" coords="970,510,1000,560" />
+            <area id="Síria" alt="Síria" title="Síria" href="https://ca.wikipedia.org/wiki/Síria" coords="1000,480,1035,560" />
+            <area id="Jordània" alt="Jordània" title="Jordània" href="https://ca.wikipedia.org/wiki/Jordàna" coords="980,560,1030,620" />
+            <area id="Aràbia Saudita" alt="Aràbia Saudita" title="Aràbia Saudita" href="https://ca.wikipedia.org/wiki/Aràbia Saudita" coords="980,620,1035,720" />
+            <area id="Sudan" alt="Sudan" title="Sudan" href="https://ca.wikipedia.org/wiki/Sudan" coords="820,780,1030,820" />
+            <area id="Chad" alt="Chad" title="Chad" href="https://ca.wikipedia.org/wiki/Chad" coords="680,780,810,825">
+            <area id="Níger" alt="Níger" title="Níger" href="https://ca.wikipedia.org/wiki/Níger" coords="500,780,680,825">
+            <area id="Malí" alt="Malí" title="Malí" href="https://ca.wikipedia.org/wiki/Malí" coords="340,780,480,825">            
+        </map>
+    </section>
+    <header>
+        <h1>
+            VISOR DE MAPES DELS PAÏSOS CATALANS
+        </h1>
+        <h4>
+            Realitzar un click amb el botó esquerra del <i><b>mouse</b></i> per escollir el mapa a visualitzar dins del visor de fotografies.<br/>
+            Botons de l'expositor per realitzar visualitzacions contigües de la sèrie de plànols, a la fotografies escollida.<br/>
+            Realitzar augments i disminucions a la visualització desitjada per el botons del visor <i><b>+</b></i> i <i><b>-</b></i>  del visor de fotografies.
+        </h4>
+    </header>
+    <section>
+        <div class="container">
+            <div id="visor" hidden=""></div>
+            <br/><br/>
+            <div id="img" onclick="img1()">
+                <img src="img/01.jpg" height="90" alt=""/>
+            </div>
+            <div id="img" onclick="img2()">
+                <img src="img/02.png" height="80" alt=""/>
+            </div>
+            <div id="img" onclick="img3()">
+                <img src="img/03.png" height="80" alt=""/>
+            </div>
+            <div id="img" onclick="img4()">
+                <img src="img/04.bmp" height="80" alt=""/>
+            </div>               
+            <div id="img" onclick="img5()">
+                <img src="img/05.jpg" height="80" alt=""/>
+            </div>
+            <div id="img" onclick="img6()">
+                <img src="img/06.jpg" height="80" alt=""/>
+            </div>  
+            <div id="img" onclick="img7()">
+                <img src="img/07.jpg" height="80" alt=""/>
+            </div>  
+            <div id="img" onclick="img8()">
+                <img src="img/08.jpg" height="80" alt=""/>
+            </div>
+            <div id="img" onclick="img9()">
+                <img src="img/09.jpg" height="80" alt=""/>
+            </div>    
+            <div id="img" onclick="img10()">
+                <img src="img/10.jpg" height="100" alt=""/>
+            </div>
+            <div id="img" onclick="img11()">
+                <img src="img/11.jpg" height="70" alt=""/>
+            </div>
+            <div id="img" onclick="img12()">
+                <img src="img/12.jpg" height="70" alt=""/>
+            </div>                  
+            <div id="img" onclick="img13()">
+                <img src="img/13.jpg" height="70" alt=""/>
+            </div>   
+            <div id="img" onclick="img14()">
+                <img src="img/14.gif" height="70" alt=""/>
+            </div>
+            <div id="img" onclick="img15()">
+                <img src="img/15.jpg" height="70" alt=""/>
+            </div>
+            <div style="text-align: left">
+                <a id="com" href="#">
+                    <img src="img/inici.png" height="60" alt=""/>
+                </a>
+            </div><br/><br/>           
+        </div> 
+    </section>
+    <footer>
+        <div class="container">
+            <div id="flotar">
+                <p><small><i>Copyright: Llicència lliure amb drets d'autor</i></small></p> 
+            </div>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <scrip src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></scrip>
+    <scrip src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></scrip>
+    <scrip src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></scrip>
+</body>
+</html>
+
