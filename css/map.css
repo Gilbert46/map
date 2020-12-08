@@ -42,6 +42,9 @@ footer{
     height: 8%;
     background: whitesmoke;   
 }
+#flotar{
+    text-align: right;
+}
 #visor{
     border: 5px solid grey;
     background: whitesmoke;
@@ -77,4 +80,13 @@ footer{
 #com:hover {
     background: grey;
     border: 5px solid grey;
+}
+#linking{
+    float: left;
+    color: black;
+    margin-right: 2%;
+}
+#links{
+    text-align: center;
+    text-decoration: underline;
 }
